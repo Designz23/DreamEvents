@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DreamEvents – Weddings & Celebrations</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link rel="icon" href="images/logo.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Work+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#team">Team</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="hero" class="hero">
+    <video class="hero-video" autoplay muted loop playsinline>
+      <source src="videos/the vedio.mp4" type="video/mp4" />
+    </video>
+    <div class="hero-overlay">
+      <h1>Turning Dreams Into Reality</h1>
+      <p>Effortless. Elegant. Exceptional.</p>
+      <a href="#contact" class="cta-btn">Let’s Plan Your Event</a>
+      <a href="#gallery" class="scroll-icon" aria-label="Scroll to Gallery">↓</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section light-bg fade-in">
+    <h2>About Us</h2>
+    <article>
+      <p>Majid and Yusra started DreamEvents out of a shared love for gatherings, celebrations, and unforgettable moments. As outgoing, creative souls, they began planning events for loved ones — and soon, the demand for their vision grew.</p>
+      <p>Today, DreamEvents is a thriving brand known for elegance, personalization, and heartfelt service. Thank you to our amazing clients for believing in us. Your celebrations are our passion. 💕</p>
+    </article>
+  </section>
+
+  <!-- Team Section -->
+  <section id="team" class="section fade-in">
+    <h2>Meet the Team</h2>
+    <p>We design and deliver stylish weddings and elegant celebrations that are personal, timeless, and full of heart.</p>
+    <section class="team">
+      <figure>
+        <img src="images/team1.jpg" alt="Layla – Lead Planner">
+        <figcaption>Layla – Lead Planner</figcaption>
+      </figure>
+      <figure>
+        <img src="images/team2.jpg" alt="Sarah – Creative Director">
+        <figcaption>Sarah – Creative Director</figcaption>
+      </figure>
+    </section>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="section light-bg fade-in">
+    <h2>Our Services</h2>
+    <section class="services">
+      <article class="service-card">Weddings</article>
+      <article class="service-card">Corporate Events</article>
+      <article class="service-card">Birthdays</article>
+      <article class="service-card">Baby Showers</article>
+    </section>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="section fade-in">
+    <h2>Gallery</h2>
+    <div class="slideshow-container">
+      <span class="prev">&#10094;</span>
+      <span class="next">&#10095;</span>
+      <figure class="gallery-slide fade"><img src="images/event1.jpg" alt="Event 1" /></figure>
+      <figure class="gallery-slide fade"><img src="images/event2.jpg" alt="Event 2" /></figure>
+      <figure class="gallery-slide fade"><img src="images/event3.jpg" alt="Event 3" /></figure>
+      <figure class="gallery-slide fade"><img src="images/event4.jpg" alt="Event 4" /></figure>
+      <figure class="gallery-slide fade"><img src="images/event5.jpg" alt="Event 5" /></figure>
+    </div>
+
+    <!-- Lightbox viewer -->
+    <div id="lightbox" class="lightbox">
+      <span class="close">&times;</span>
+      <img class="lightbox-content" id="lightbox-img" src="" alt="">
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section fade-in">
+    <h2>Let's Connect</h2>
+    <form id="contactForm">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Tell us about your dream event..." required></textarea>
+      <button type="submit">Send Inquiry</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 DreamEvents | Designed with love 💕</p>
+  </footer>
+
+</body>
+</html>
